@@ -1,0 +1,1360 @@
+@import "../../assets/mixins/mixins.scss";
+@import "../../assets/font/font.scss";
+@import "../../assets/colors/colors.scss";
+
+//! Non Responsive
+#storeBody {
+  //? Top
+  #storeTop {
+    height: 450px;
+    @include tLC;
+
+    div {
+      text-align: center;
+      h1 {
+        font-family: $S;
+        font-size: clamp(4rem, 4vw, 4rem);
+        transition: 0.5s ease-in-out;
+      }
+
+      p {
+        font-family: $P;
+        font-size: 21px;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+
+  //? Product Types
+  #storeProductTypes {
+    padding-top: 40px !important;
+    padding-bottom: 100px !important;
+    overflow: hidden;
+
+    .store_product_types_box {
+      max-width: 1450px;
+      @include qC;
+
+      .store_product_types_row {
+        .store_product_types_side {
+          height: 500px;
+          display: flex;
+          align-items: center;
+
+          .store_product_types_side_cnt {
+            width: 100%;
+            padding: 0 !important;
+          }
+        }
+
+        .store_product_types_img_side {
+          justify-content: flex-start;
+
+          .store_product_types_side_cnt {
+            img {
+              max-width: 450px;
+              @include qC;
+              display: block;
+              filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.13));
+            }
+          }
+        }
+        .store_product_types_text_side {
+          justify-content: flex-end;
+          .store_product_types_side_cnt {
+            text-align: center;
+            max-width: 550px;
+            @include qC;
+
+            h2 {
+              font-family: $S;
+              font-size: clamp(3rem, 4vw, 4rem);
+            }
+
+            p {
+              font-family: $P;
+              font-size: 21px;
+              font-weight: $PMed;
+              padding-bottom: 20px !important;
+              transition: 0.5s ease-in-out;
+            }
+
+            a {
+              display: inline-block;
+              padding: 10px !important;
+              font-family: $P;
+              font-weight: $PMed;
+              font-size: 21px;
+              border: 2px solid $Zuccini;
+              color: $Zuccini;
+              text-decoration: none;
+              text-transform: uppercase;
+
+              &:hover {
+                background-color: $Zuccini;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#meatsBody,
+#fruitsBody,
+#veggiesBody,
+#dessertsBody {
+  //? Top
+  #meatsTop,
+  #fruitsTop,
+  #veggiesTop,
+  #dessertsTop {
+    height: 450px;
+    @include tLC;
+
+    div {
+      text-align: center;
+      h1 {
+        font-family: $S;
+        font-size: clamp(4rem, 4vw, 4rem);
+        transition: 0.5s ease-in-out;
+      }
+
+      p {
+        font-family: $P;
+        font-size: 21px;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+
+  //? Main
+  #meatsMain,
+  #fruitsMain,
+  #veggiesMain,
+  #dessertsMain {
+    padding-bottom: 120px !important;
+    .products_main_box {
+      max-width: 1500px;
+      @include qC;
+
+      .products_main_row {
+        .product_item {
+          @include tLC;
+          border: 5px solid rgba(255, 255, 255, 0);
+          padding: 0 !important;
+
+          .product_item_cnt {
+            width: 100%;
+            background-color: rgba(248, 248, 255, 0.246);
+            box-shadow: 0 16px 7px rgba(230, 230, 230, 0.13);
+            text-align: center;
+            padding-bottom: 40px !important;
+
+            .product_inner {
+              img {
+                max-width: 270px;
+                max-height: 215px;
+                padding: 20px !important;
+              }
+
+              .product_inner_deets {
+                text-align: center;
+                padding-bottom: 30px !important;
+
+                h3 {
+                  font-family: $S;
+                  text-align: center;
+                  font-size: 35px;
+                  transition: 0.5s ease-in-out;
+                }
+
+                div {
+                  display: flex;
+                  justify-content: space-evenly;
+                  align-items: center;
+                  max-width: 280px;
+                  @include qC;
+                  font-family: $P;
+
+                  p {
+                    margin-bottom: 0 !important;
+                    display: inline-block;
+                    opacity: 0.7;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    color: black;
+                    text-decoration: none;
+                  }
+
+                  span {
+                    font-size: 18px;
+                    color: black;
+                    transition: 0.5s ease-in-out;
+                  }
+                }
+              }
+            }
+
+            button {
+              @include qC;
+              max-width: 50px;
+              height: 50px;
+              width: 100%;
+              color: white;
+              background-color: $Zuccini;
+              border: none !important;
+              outline: none !important;
+              @include tLC;
+              font-size: 23px;
+
+              &:hover {
+                background-color: rgb(23, 47, 23);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Responsive
+@media all and (max-width: 1995px) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 350px;
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      .store_product_types_box {
+        max-width: 1200px;
+
+        .store_product_types_row {
+          .store_product_types_img_side {
+            .store_product_types_side_cnt {
+              img {
+                max-width: 85%;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            .store_product_types_side_cnt {
+              max-width: 85%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    //? Top
+    #meatsTop,
+    #fruitsTop,
+    #veggiesTop,
+    #dessertsTop {
+      height: 350px;
+    }
+
+    //? Main
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 75px !important;
+      .products_main_box {
+        max-width: 70%;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 991px) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        h1 {
+          font-size: 50px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 100%;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 280px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 45%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 100%;
+                padding: 20px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 55%;
+            .store_product_types_side_cnt {
+              text-align: right;
+              max-width: 370px;
+
+              h2 {
+                font-size: 35px;
+              }
+
+              p {
+                font-size: 15px;
+              }
+
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        h1 {
+          font-size: 50px !important;
+        }
+
+        p {
+          font-size: 20px !important;
+        }
+      }
+    }
+
+    //? Main
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain {
+      padding-bottom: 75px !important;
+      .products_main_box {
+        max-width: 90%;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            width: 100%;
+
+            .product_item_cnt {
+              .product_inner {
+                img {
+                  max-width: 270px;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 35px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #storeBody {
+  }
+
+  #meatsBody {
+  }
+
+  #fruitsBody {
+  }
+
+  #veggiesBody {
+  }
+
+  #dessertsBody {
+  }
+}
+
+@media all and (max-width: 768px) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      padding-bottom: 0 !important;
+      height: 100%;
+
+      div {
+        max-width: 310px;
+        h1 {
+          font-size: 34px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 50px !important;
+      .store_product_types_box {
+        max-width: 100%;
+        padding-bottom: 50px !important;
+
+        &:last-child {
+          padding-bottom: 0 !important;
+        }
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 100%;
+            width: 100%;
+          }
+
+          .store_product_types_img_side {
+            max-width: 100%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 260px;
+                padding: 10px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 100%;
+            .store_product_types_side_cnt {
+              text-align: center;
+              max-width: 420px;
+
+              h2 {
+                font-size: 35px;
+              }
+
+              p {
+                font-size: 14px;
+              }
+
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      padding-bottom: 40px !important;
+      height: 100% !important;
+
+      div {
+        max-width: 80%;
+        h1 {
+          font-size: 34px !important;
+        }
+
+        p {
+          font-size: 16px !important;
+        }
+      }
+    }
+
+    //? Main
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 45px !important;
+      .products_main_box {
+        max-width: 500px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 100%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 40px !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 220px;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 25px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 16px;
+                    }
+
+                    span {
+                      font-size: 16px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 340px;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 95%;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 200px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 45%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 100%;
+                margin-left: 0 !important;
+                padding: 0px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 55%;
+            .store_product_types_side_cnt {
+              text-align: right;
+              max-width: 90%;
+
+              h2 {
+                font-size: 32px;
+              }
+
+              p {
+                font-size: 14px;
+                padding-bottom: 5px !important;
+              }
+
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 440px;
+        h1 {
+          font-size: 40px !important;
+        }
+
+        p {
+          font-size: 17px !important;
+        }
+      }
+    }
+
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 45px !important;
+      .products_main_box {
+        max-width: 550px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 25px !important;
+            margin-top: auto !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 80%;
+                  max-height: 100%;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 25px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 600px;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 90%;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 250px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 45%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 90%;
+                margin-left: 0 !important;
+                padding: 20px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 55%;
+            .store_product_types_side_cnt {
+              text-align: center;
+              max-width: 320px;
+
+              h2 {
+                font-size: 35px;
+              }
+
+              p {
+                font-size: 14px;
+                padding-bottom: 10px !important;
+              }
+
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 400px;
+        h1 {
+          font-size: 40px !important;
+        }
+
+        p {
+          font-size: 18px !important;
+        }
+      }
+    }
+
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 45px !important;
+      .products_main_box {
+        max-width: 700px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 25px !important;
+            margin-top: auto !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 80%;
+                  max-height: 100%;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 35px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 0px !important;
+
+      div {
+        max-width: 340px;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 95%;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 250px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 40%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 240px;
+                @include qC;
+                padding: 0px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 60%;
+            .store_product_types_side_cnt {
+              text-align: right;
+              max-width: 100%;
+
+              h2 {
+                font-size: 32px;
+              }
+
+              p {
+                font-size: 16px;
+                padding-bottom: 5px !important;
+              }
+
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100% !important;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 340px;
+        h1 {
+          font-size: 40px !important;
+        }
+
+        p {
+          font-size: 17px !important;
+        }
+      }
+    }
+
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 45px !important;
+      .products_main_box {
+        max-width: 700px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 55px !important;
+            margin-top: auto !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 60%;
+                  max-height: 100%;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 35px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 600px;
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 900px;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 340px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 45%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 95%;
+                margin-left: 0 !important;
+                padding: 20px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 55%;
+            .store_product_types_side_cnt {
+              text-align: right;
+              max-width: 540px;
+
+              h2 {
+                font-size: 45px;
+              }
+
+              p {
+                font-size: 17px;
+              }
+
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100%;
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 600px;
+        h1 {
+          font-size: clamp(4rem, 4vw, 4rem) !important;
+        }
+
+        p {
+          font-size: 21px !important;
+        }
+      }
+    }
+
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 85px !important;
+      .products_main_box {
+        max-width: 900px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 55px !important;
+            margin-top: auto !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 60%;
+                  max-height: 100%;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 35px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 100%;
+      padding-top: 90px !important;
+      padding-bottom: 30px !important;
+
+      div {
+        max-width: 700px;
+        h1 {
+          font-size: 50px;
+        }
+
+        p {
+          font-size: 21px;
+        }
+      }
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      padding-bottom: 40px !important;
+      .store_product_types_box {
+        max-width: 1000px;
+
+        .store_product_types_row {
+          .store_product_types_side {
+            height: 340px;
+          }
+
+          .store_product_types_img_side {
+            max-width: 40%;
+            .store_product_types_side_cnt {
+              img {
+                max-width: 95%;
+                margin-left: 0 !important;
+                padding: 20px !important;
+              }
+            }
+          }
+
+          .store_product_types_text_side {
+            max-width: 60%;
+            .store_product_types_side_cnt {
+              text-align: right;
+              max-width: 440px;
+
+              h2 {
+                font-size: 45px;
+              }
+
+              p {
+                font-size: 18px;
+              }
+
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 100%;
+      padding-top: 30px !important;
+      padding-bottom: 20px !important;
+
+      div {
+        max-width: 500px;
+        h1 {
+          font-size: clamp(4rem, 4vw, 4rem) !important;
+        }
+
+        p {
+          font-size: 21px !important;
+        }
+      }
+    }
+
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 105px !important;
+      .products_main_box {
+        max-width: 900px;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            height: 100%;
+            width: 100%;
+            margin-bottom: 30px !important;
+            margin-top: auto !important;
+
+            &:last-child {
+              margin-bottom: 0 !important;
+            }
+
+            .product_item_cnt {
+              box-shadow: none;
+              padding-bottom: 0px !important;
+              .product_inner {
+                img {
+                  max-width: 60%;
+                  max-height: 100%;
+                }
+
+                .product_inner_deets {
+                  h3 {
+                    font-size: 35px;
+                  }
+
+                  div {
+                    p {
+                      font-size: 17px;
+                    }
+
+                    span {
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+
+              button {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody {
+    //? Top
+    #storeTop {
+      height: 350px;
+    }
+
+    //? Product Types
+    #storeProductTypes {
+      .store_product_types_box {
+        max-width: 90%;
+
+        .store_product_types_row {
+          .store_product_types_img_side {
+            .store_product_types_side_cnt {
+              img {
+                max-width: 500px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #meatsBody,
+  #fruitsBody,
+  #veggiesBody,
+  #dessertsBody {
+    .product_type_top {
+      height: 350px;
+    }
+
+    //? Main
+    #meatsMain,
+    #fruitsMain,
+    #veggiesMain,
+    #dessertsMain {
+      padding-bottom: 75px !important;
+      .products_main_box {
+        max-width: 70%;
+
+        .products_main_row {
+          .product_item {
+            max-width: 50%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

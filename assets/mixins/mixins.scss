@@ -1,0 +1,14 @@
+@mixin qC() {
+  margin: auto !important;
+}
+
+@mixin tLC() {
+  display: grid !important;
+  place-items: center !important;
+}
+
+@mixin bGSU() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,66 @@
+.slick-dots {
+  position: relative !important;
+  top: 10px !important;
+  bottom: 0 !important;
+}
+
+.slick-dots li {
+  margin: 10px !important;
+}
+
+.slick-dots li button::before {
+  font-size: 20px !important;
+}
+
+.slick-dots .slick-active button::before {
+  color: #064420 !important;
+}
+
+@media all and (max-width: 991px) {
+  .slick-dots {
+    max-width: 300px !important;
+    margin: auto !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .slick-dots {
+    max-width: 250px !important;
+    margin: auto !important;
+  }
+  .slick-dots li {
+    margin: 5px !important;
+    margin-top: 0 !important;
+  }
+  .slick-dots li button::before {
+    font-size: 15px !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .slick-dots {
+    max-width: 400px !important;
+    margin: auto !important;
+  }
+  .slick-dots li {
+    margin: 5px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .slick-dots {
+    max-width: 400px !important;
+    margin: auto !important;
+  }
+  .slick-dots li {
+    margin: 5px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/*! iPad Pro */
+/*! Laptops */
+/*# sourceMappingURL=overrides.css.map */
