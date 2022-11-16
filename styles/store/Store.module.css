@@ -1,0 +1,2395 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Staatliches&display=swap");
+#storeBody #storeTop {
+  height: 450px;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+#storeBody #storeTop div {
+  text-align: center;
+}
+
+#storeBody #storeTop div h1 {
+  font-family: "Staatliches";
+  font-size: clamp(4rem, 4vw, 4rem);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#storeBody #storeTop div p {
+  font-family: "Poppins";
+  font-size: 21px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#storeBody #storeProductTypes {
+  padding-top: 40px !important;
+  padding-bottom: 100px !important;
+  overflow: hidden;
+}
+
+#storeBody #storeProductTypes .store_product_types_box {
+  max-width: 1450px;
+  margin: auto !important;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side .store_product_types_side_cnt {
+  width: 100%;
+  padding: 0 !important;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+  max-width: 450px;
+  margin: auto !important;
+  display: block;
+  -webkit-filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.13));
+          filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.13));
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+  text-align: center;
+  max-width: 550px;
+  margin: auto !important;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+  font-family: "Staatliches";
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 500;
+  padding-bottom: 20px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+  display: inline-block;
+  padding: 10px !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 21px;
+  border: 2px solid #064420;
+  color: #064420;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a:hover {
+  background-color: #064420;
+  color: white;
+}
+
+#meatsBody #meatsTop,
+#meatsBody #fruitsTop,
+#meatsBody #veggiesTop,
+#meatsBody #dessertsTop,
+#fruitsBody #meatsTop,
+#fruitsBody #fruitsTop,
+#fruitsBody #veggiesTop,
+#fruitsBody #dessertsTop,
+#veggiesBody #meatsTop,
+#veggiesBody #fruitsTop,
+#veggiesBody #veggiesTop,
+#veggiesBody #dessertsTop,
+#dessertsBody #meatsTop,
+#dessertsBody #fruitsTop,
+#dessertsBody #veggiesTop,
+#dessertsBody #dessertsTop {
+  height: 450px;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+#meatsBody #meatsTop div,
+#meatsBody #fruitsTop div,
+#meatsBody #veggiesTop div,
+#meatsBody #dessertsTop div,
+#fruitsBody #meatsTop div,
+#fruitsBody #fruitsTop div,
+#fruitsBody #veggiesTop div,
+#fruitsBody #dessertsTop div,
+#veggiesBody #meatsTop div,
+#veggiesBody #fruitsTop div,
+#veggiesBody #veggiesTop div,
+#veggiesBody #dessertsTop div,
+#dessertsBody #meatsTop div,
+#dessertsBody #fruitsTop div,
+#dessertsBody #veggiesTop div,
+#dessertsBody #dessertsTop div {
+  text-align: center;
+}
+
+#meatsBody #meatsTop div h1,
+#meatsBody #fruitsTop div h1,
+#meatsBody #veggiesTop div h1,
+#meatsBody #dessertsTop div h1,
+#fruitsBody #meatsTop div h1,
+#fruitsBody #fruitsTop div h1,
+#fruitsBody #veggiesTop div h1,
+#fruitsBody #dessertsTop div h1,
+#veggiesBody #meatsTop div h1,
+#veggiesBody #fruitsTop div h1,
+#veggiesBody #veggiesTop div h1,
+#veggiesBody #dessertsTop div h1,
+#dessertsBody #meatsTop div h1,
+#dessertsBody #fruitsTop div h1,
+#dessertsBody #veggiesTop div h1,
+#dessertsBody #dessertsTop div h1 {
+  font-family: "Staatliches";
+  font-size: clamp(4rem, 4vw, 4rem);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#meatsBody #meatsTop div p,
+#meatsBody #fruitsTop div p,
+#meatsBody #veggiesTop div p,
+#meatsBody #dessertsTop div p,
+#fruitsBody #meatsTop div p,
+#fruitsBody #fruitsTop div p,
+#fruitsBody #veggiesTop div p,
+#fruitsBody #dessertsTop div p,
+#veggiesBody #meatsTop div p,
+#veggiesBody #fruitsTop div p,
+#veggiesBody #veggiesTop div p,
+#veggiesBody #dessertsTop div p,
+#dessertsBody #meatsTop div p,
+#dessertsBody #fruitsTop div p,
+#dessertsBody #veggiesTop div p,
+#dessertsBody #dessertsTop div p {
+  font-family: "Poppins";
+  font-size: 21px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#meatsBody #meatsMain,
+#meatsBody #fruitsMain,
+#meatsBody #veggiesMain,
+#meatsBody #dessertsMain,
+#fruitsBody #meatsMain,
+#fruitsBody #fruitsMain,
+#fruitsBody #veggiesMain,
+#fruitsBody #dessertsMain,
+#veggiesBody #meatsMain,
+#veggiesBody #fruitsMain,
+#veggiesBody #veggiesMain,
+#veggiesBody #dessertsMain,
+#dessertsBody #meatsMain,
+#dessertsBody #fruitsMain,
+#dessertsBody #veggiesMain,
+#dessertsBody #dessertsMain {
+  padding-bottom: 120px !important;
+}
+
+#meatsBody #meatsMain .products_main_box,
+#meatsBody #fruitsMain .products_main_box,
+#meatsBody #veggiesMain .products_main_box,
+#meatsBody #dessertsMain .products_main_box,
+#fruitsBody #meatsMain .products_main_box,
+#fruitsBody #fruitsMain .products_main_box,
+#fruitsBody #veggiesMain .products_main_box,
+#fruitsBody #dessertsMain .products_main_box,
+#veggiesBody #meatsMain .products_main_box,
+#veggiesBody #fruitsMain .products_main_box,
+#veggiesBody #veggiesMain .products_main_box,
+#veggiesBody #dessertsMain .products_main_box,
+#dessertsBody #meatsMain .products_main_box,
+#dessertsBody #fruitsMain .products_main_box,
+#dessertsBody #veggiesMain .products_main_box,
+#dessertsBody #dessertsMain .products_main_box {
+  max-width: 1500px;
+  margin: auto !important;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  border: 5px solid rgba(255, 255, 255, 0);
+  padding: 0 !important;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+  width: 100%;
+  background-color: rgba(248, 248, 255, 0.246);
+  -webkit-box-shadow: 0 16px 7px rgba(230, 230, 230, 0.13);
+          box-shadow: 0 16px 7px rgba(230, 230, 230, 0.13);
+  text-align: center;
+  padding-bottom: 40px !important;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+  max-width: 270px;
+  max-height: 215px;
+  padding: 20px !important;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets {
+  text-align: center;
+  padding-bottom: 30px !important;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+  font-family: "Staatliches";
+  text-align: center;
+  font-size: 35px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 280px;
+  margin: auto !important;
+  font-family: "Poppins";
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+  margin-bottom: 0 !important;
+  display: inline-block;
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+  font-size: 18px;
+  color: black;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+  margin: auto !important;
+  max-width: 50px;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #064420;
+  border: none !important;
+  outline: none !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 23px;
+}
+
+#meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover,
+#dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button:hover {
+  background-color: #172f17;
+}
+
+@media all and (max-width: 1995px) {
+  #storeBody #storeTop {
+    height: 350px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 1200px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 85%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    max-width: 85%;
+  }
+  #meatsBody #meatsTop,
+  #meatsBody #fruitsTop,
+  #meatsBody #veggiesTop,
+  #meatsBody #dessertsTop,
+  #fruitsBody #meatsTop,
+  #fruitsBody #fruitsTop,
+  #fruitsBody #veggiesTop,
+  #fruitsBody #dessertsTop,
+  #veggiesBody #meatsTop,
+  #veggiesBody #fruitsTop,
+  #veggiesBody #veggiesTop,
+  #veggiesBody #dessertsTop,
+  #dessertsBody #meatsTop,
+  #dessertsBody #fruitsTop,
+  #dessertsBody #veggiesTop,
+  #dessertsBody #dessertsTop {
+    height: 350px;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 75px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 70%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 50px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 20px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 100%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 280px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 45%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 100%;
+    padding: 20px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 55%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: right;
+    max-width: 370px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 35px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 15px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 16px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: 50px !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 20px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain {
+    padding-bottom: 75px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box {
+    max-width: 90%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    width: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 270px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 35px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #storeBody #storeTop {
+    padding-bottom: 0 !important;
+    height: 100%;
+  }
+  #storeBody #storeTop div {
+    max-width: 310px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 34px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 16px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 50px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 100%;
+    padding-bottom: 50px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box:last-child {
+    padding-bottom: 0 !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 100%;
+    width: 100%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 100%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 260px;
+    padding: 10px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 100%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: center;
+    max-width: 420px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 35px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 14px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 15px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    padding-bottom: 40px !important;
+    height: 100% !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 80%;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: 34px !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 16px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 45px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 500px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 220px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 25px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 16px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 16px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #storeBody #storeTop div {
+    max-width: 340px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 40px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 17px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 95%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 200px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 45%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 100%;
+    margin-left: 0 !important;
+    padding: 0px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 55%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: right;
+    max-width: 90%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 32px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 14px;
+    padding-bottom: 5px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 15px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 440px;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: 40px !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 17px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 45px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 550px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px !important;
+    margin-top: auto !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 80%;
+    max-height: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 25px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #storeBody #storeTop div {
+    max-width: 600px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 40px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 18px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 90%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 250px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 45%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 90%;
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 55%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: center;
+    max-width: 320px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 35px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 14px;
+    padding-bottom: 10px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 16px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 400px;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: 40px !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 18px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 45px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 700px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px !important;
+    margin-top: auto !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 80%;
+    max-height: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 35px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 0px !important;
+  }
+  #storeBody #storeTop div {
+    max-width: 340px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 40px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 17px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 95%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 250px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 40%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 240px;
+    margin: auto !important;
+    padding: 0px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 60%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: right;
+    max-width: 100%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 32px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 16px;
+    padding-bottom: 5px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 15px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100% !important;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 340px;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: 40px !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 17px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 45px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 700px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 55px !important;
+    margin-top: auto !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 60%;
+    max-height: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 35px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #storeBody #storeTop div {
+    max-width: 600px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 40px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 18px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 900px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 340px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 45%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 95%;
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 55%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: right;
+    max-width: 540px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 45px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 17px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 18px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 600px;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: clamp(4rem, 4vw, 4rem) !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 21px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 85px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 900px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 55px !important;
+    margin-top: auto !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 60%;
+    max-height: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 35px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #storeBody #storeTop {
+    height: 100%;
+    padding-top: 90px !important;
+    padding-bottom: 30px !important;
+  }
+  #storeBody #storeTop div {
+    max-width: 700px;
+  }
+  #storeBody #storeTop div h1 {
+    font-size: 50px;
+  }
+  #storeBody #storeTop div p {
+    font-size: 21px;
+  }
+  #storeBody #storeProductTypes {
+    padding-bottom: 40px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 1000px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_side {
+    height: 340px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side {
+    max-width: 40%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 95%;
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side {
+    max-width: 60%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt {
+    text-align: right;
+    max-width: 440px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt h2 {
+    font-size: 45px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt p {
+    font-size: 18px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_text_side .store_product_types_side_cnt a {
+    font-size: 18px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 100%;
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+  }
+  #meatsBody .product_type_top div,
+  #fruitsBody .product_type_top div,
+  #veggiesBody .product_type_top div,
+  #dessertsBody .product_type_top div {
+    max-width: 500px;
+  }
+  #meatsBody .product_type_top div h1,
+  #fruitsBody .product_type_top div h1,
+  #veggiesBody .product_type_top div h1,
+  #dessertsBody .product_type_top div h1 {
+    font-size: clamp(4rem, 4vw, 4rem) !important;
+  }
+  #meatsBody .product_type_top div p,
+  #fruitsBody .product_type_top div p,
+  #veggiesBody .product_type_top div p,
+  #dessertsBody .product_type_top div p {
+    font-size: 21px !important;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 105px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 900px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px !important;
+    margin-top: auto !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item:last-child,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item:last-child {
+    margin-bottom: 0 !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-bottom: 0px !important;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner img {
+    max-width: 60%;
+    max-height: 100%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets h3 {
+    font-size: 35px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div p {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt .product_inner .product_inner_deets div span {
+    font-size: 17px;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item .product_item_cnt button,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item .product_item_cnt button {
+    font-size: 21px;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #storeBody #storeTop {
+    height: 350px;
+  }
+  #storeBody #storeProductTypes .store_product_types_box {
+    max-width: 90%;
+  }
+  #storeBody #storeProductTypes .store_product_types_box .store_product_types_row .store_product_types_img_side .store_product_types_side_cnt img {
+    max-width: 500px;
+  }
+  #meatsBody .product_type_top,
+  #fruitsBody .product_type_top,
+  #veggiesBody .product_type_top,
+  #dessertsBody .product_type_top {
+    height: 350px;
+  }
+  #meatsBody #meatsMain,
+  #meatsBody #fruitsMain,
+  #meatsBody #veggiesMain,
+  #meatsBody #dessertsMain,
+  #fruitsBody #meatsMain,
+  #fruitsBody #fruitsMain,
+  #fruitsBody #veggiesMain,
+  #fruitsBody #dessertsMain,
+  #veggiesBody #meatsMain,
+  #veggiesBody #fruitsMain,
+  #veggiesBody #veggiesMain,
+  #veggiesBody #dessertsMain,
+  #dessertsBody #meatsMain,
+  #dessertsBody #fruitsMain,
+  #dessertsBody #veggiesMain,
+  #dessertsBody #dessertsMain {
+    padding-bottom: 75px !important;
+  }
+  #meatsBody #meatsMain .products_main_box,
+  #meatsBody #fruitsMain .products_main_box,
+  #meatsBody #veggiesMain .products_main_box,
+  #meatsBody #dessertsMain .products_main_box,
+  #fruitsBody #meatsMain .products_main_box,
+  #fruitsBody #fruitsMain .products_main_box,
+  #fruitsBody #veggiesMain .products_main_box,
+  #fruitsBody #dessertsMain .products_main_box,
+  #veggiesBody #meatsMain .products_main_box,
+  #veggiesBody #fruitsMain .products_main_box,
+  #veggiesBody #veggiesMain .products_main_box,
+  #veggiesBody #dessertsMain .products_main_box,
+  #dessertsBody #meatsMain .products_main_box,
+  #dessertsBody #fruitsMain .products_main_box,
+  #dessertsBody #veggiesMain .products_main_box,
+  #dessertsBody #dessertsMain .products_main_box {
+    max-width: 70%;
+  }
+  #meatsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #meatsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #meatsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #fruitsBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #meatsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #veggiesBody #dessertsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #meatsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #fruitsMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #veggiesMain .products_main_box .products_main_row .product_item,
+  #dessertsBody #dessertsMain .products_main_box .products_main_row .product_item {
+    max-width: 50%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Store.module.css.map */

@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Staatliches&display=swap");
+#aboutBody #aboutTop {
+  height: 450px;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  text-align: center;
+}
+
+#aboutBody #aboutTop div h1 {
+  font-family: "Staatliches";
+  font-size: clamp(4rem, 4vw, 4rem);
+}
+
+#aboutBody #aboutTop div p {
+  font-family: "Poppins";
+  font-size: 21px;
+}
+
+#aboutBody #aboutBackground {
+  max-width: 1700px;
+  padding-bottom: 120px !important;
+  margin: auto !important;
+}
+
+#aboutBody #aboutBackground .about_background_bg_holder {
+  height: 350px;
+}
+
+#aboutBody #aboutBackground .about_background_bg_holder .about_background_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 50% 30% !important;
+}
+
+#aboutBody #aboutBackground .about_background_text_holder {
+  height: 100%;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  text-align: center;
+  padding-top: 80px !important;
+  padding-bottom: 40px !important;
+  max-width: 70%;
+  margin: auto !important;
+}
+
+#aboutBody #aboutBackground .about_background_text_holder div h2 {
+  font-family: "Staatliches";
+  font-size: clamp(3rem, 3.5vw, 3.5rem);
+}
+
+#aboutBody #aboutBackground .about_background_text_holder div p {
+  font-family: "Poppins";
+  font-size: 21px;
+}
+
+@media all and (max-width: 1995px) {
+  #aboutBody #aboutTop {
+    height: 350px;
+  }
+  #aboutBody #aboutBackground {
+    padding-bottom: 40px !important;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    max-width: 90%;
+    margin: auto !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #aboutBody #aboutTop {
+    height: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  #aboutBody #aboutTop div {
+    max-width: 80%;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 50px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 20px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+    height: 300px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    max-width: 90%;
+    padding-top: 70px !important;
+    padding-bottom: 20px !important;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 45px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #aboutBody #aboutTop {
+    height: 100%;
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+  }
+  #aboutBody #aboutTop div {
+    max-width: 80%;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 30px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 15px;
+  }
+  #aboutBody #aboutBackground {
+    padding-bottom: 30px !important;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 95%;
+    margin: auto !important;
+    height: 210px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    max-width: 95%;
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 30px;
+    padding-bottom: 10px !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 15px;
+    max-width: 95%;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #aboutBody #aboutTop {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+    height: 100%;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 16px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+    max-width: 95%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 16px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutBody #aboutTop {
+    height: 250px;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 18px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    max-width: 90%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutBody #aboutTop {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+    height: 100%;
+  }
+  #aboutBody #aboutTop div {
+    max-width: 400px;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 17px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+    height: 200px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    padding-top: 60px !important;
+    padding-bottom: 0px !important;
+    max-width: 90%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 40px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 17px;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #aboutBody #aboutTop {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+    height: 100%;
+  }
+  #aboutBody #aboutTop div {
+    max-width: 800px;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 50px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 19px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+    height: 250px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    padding-top: 60px !important;
+    padding-bottom: 0px !important;
+    max-width: 90%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 50px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #aboutBody #aboutTop {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    height: 100%;
+  }
+  #aboutBody #aboutTop div {
+    max-width: 1200px;
+  }
+  #aboutBody #aboutTop div h1 {
+    font-size: 50px;
+  }
+  #aboutBody #aboutTop div p {
+    font-size: 21px;
+  }
+  #aboutBody #aboutBackground .about_background_bg_holder {
+    max-width: 85%;
+    margin: auto !important;
+    height: 250px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder {
+    padding-top: 60px !important;
+    padding-bottom: 0px !important;
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div h2 {
+    font-size: 50px;
+  }
+  #aboutBody #aboutBackground .about_background_text_holder div p {
+    font-size: 21px;
+  }
+}
+
+/*! Laptops */
+/*# sourceMappingURL=About.module.css.map */

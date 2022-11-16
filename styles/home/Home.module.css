@@ -1,0 +1,1661 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Staatliches&display=swap");
+#homeBody #indexTop {
+  position: relative;
+  height: 1200px;
+  width: 100%;
+  max-width: 85%;
+  margin: auto !important;
+}
+
+#homeBody #indexTop .index_top_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#homeBody #indexTop .index_top_cnt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+#homeBody #indexTop .index_top_cnt div {
+  color: white;
+  -webkit-filter: drop-shadow(0 3px 3px black);
+          filter: drop-shadow(0 3px 3px black);
+  padding-top: 50px !important;
+}
+
+#homeBody #indexTop .index_top_cnt div h1 {
+  font-family: "Staatliches";
+  font-size: clamp(10rem, 11vw, 11rem);
+  margin-bottom: 0 !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexTop .index_top_cnt div p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 34px;
+  padding-bottom: 20px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexTop .index_top_cnt div a {
+  text-transform: uppercase;
+  display: inline-block;
+  border: 3px solid white;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 27px;
+  text-decoration: none;
+  color: white;
+  padding: 10px !important;
+}
+
+#homeBody #indexTop .index_top_cnt div a:hover {
+  background-color: white;
+  color: #064420;
+}
+
+#homeBody #indexProducts {
+  padding-top: 230px !important;
+  padding-bottom: 80px !important;
+  width: 100%;
+  max-width: 85%;
+  margin: auto !important;
+}
+
+#homeBody #indexProducts .index_products_cnt {
+  overflow: hidden;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_top {
+  text-align: center;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+  font-family: "Staatliches";
+  font-size: clamp(6rem, 6vw, 6rem);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_top p {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 500;
+  padding-bottom: 20px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_top a {
+  display: inline-block;
+  padding: 10px !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 21px;
+  border: 2px solid #064420;
+  color: #064420;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_top a:hover {
+  background-color: #064420;
+  color: white;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder {
+  padding-top: 80px !important;
+  max-width: 1300px;
+  margin: auto !important;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+  display: block;
+  height: 475px;
+  background-color: rgba(248, 248, 255, 0.418);
+  max-width: 95%;
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 8px 4px -1px rgba(0, 0, 0, 0.155);
+  box-shadow: 0px 8px 4px -1px rgba(0, 0, 0, 0.155);
+  margin: auto !important;
+  margin-bottom: 40px !important;
+  position: relative;
+  top: 0;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide:hover {
+  opacity: 1;
+  top: -5px;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+  max-width: 350px;
+  max-height: 250px;
+  display: block;
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets {
+  display: block;
+  padding-bottom: 40px !important;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+  font-family: "Staatliches";
+  text-align: center;
+  font-size: 45px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets div a {
+  display: inline-block;
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets div span {
+  font-size: 18px;
+  color: black;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_adder {
+  margin: auto !important;
+  max-width: 50px;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #064420;
+  border: none !important;
+  outline: none !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  place-items: center !important;
+  font-size: 23px;
+}
+
+#homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_adder:hover {
+  background-color: #172f17;
+}
+
+#homeBody #indexTypes {
+  padding-top: 190px !important;
+  padding-bottom: 180px !important;
+  width: 100%;
+  max-width: 85%;
+  margin: auto !important;
+  overflow: hidden;
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 450px;
+  position: relative;
+  border: 3px solid white;
+  overflow: hidden;
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type .index_types_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none !important;
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+  padding-left: 40px !important;
+  padding-bottom: 10px !important;
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.616));
+          filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.616));
+}
+
+#homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+  font-family: "Staatliches";
+  font-size: clamp(8rem, 8vw, 8rem);
+  color: white;
+  margin-bottom: 0 !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexBackground {
+  padding-top: 70px !important;
+  padding-bottom: 150px !important;
+  width: 100%;
+  max-width: 85%;
+  margin: auto !important;
+  overflow: hidden;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+  max-width: 95%;
+  margin: auto !important;
+  width: 100%;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+  font-family: "Staatliches";
+  font-size: clamp(6rem, 6vw, 6rem);
+  line-height: 70px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+  display: none;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 500;
+  max-width: 80%;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+  display: inline-block;
+  padding: 10px !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 21px;
+  border: 2px solid #064420;
+  color: #064420;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a:hover {
+  background-color: #064420;
+  color: white;
+}
+
+#homeBody #indexBenefits {
+  padding-top: 160px !important;
+  padding-bottom: 160px !important;
+  width: 100%;
+  max-width: 85%;
+  margin: auto !important;
+  overflow: hidden;
+  text-align: center;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt h1 {
+  font-family: "Staatliches";
+  font-size: clamp(6rem, 6vw, 6rem);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding-bottom: 70px !important;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+  max-width: 1600px;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row {
+  overflow: hidden;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+  max-width: 280px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+  padding-top: 30px !important;
+  padding-bottom: 20px !important;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+  font-family: "Staatliches";
+  font-size: 50px;
+  line-height: 50px;
+  padding-bottom: 10px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+  display: inline-block;
+  padding: 10px !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 21px;
+  border: 2px solid #064420;
+  color: #064420;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a:hover {
+  background-color: #064420;
+  color: white;
+}
+
+@media all and (max-width: 1995px) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 1000px;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 130px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 31px;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 23px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 90px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 70px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+    padding-bottom: 20px !important;
+    height: 390px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+    max-width: 250px;
+    max-height: 180px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 31px;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 400px;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 20px !important;
+    padding-bottom: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 100px;
+  }
+  #homeBody #indexBackground {
+    max-width: 95%;
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 600px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    max-width: 99%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 70px;
+  }
+  #homeBody #indexBenefits {
+    max-width: 1500px;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 70px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    max-width: 250px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 700px;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 90px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 26px;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 18px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 50px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 50px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top p {
+    font-size: 19px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top a {
+    font-size: 19px;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 360px;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding-left: 25px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 70px;
+  }
+  #homeBody #indexBackground {
+    max-width: 95%;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 500px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 19px;
+    max-width: 90%;
+    padding-top: 20px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 19px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 50px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 950px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    max-width: 240px;
+    padding: 20px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    text-align: right;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 37px;
+    line-height: 37px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 500px;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: clamp(40px, 34px, 34px);
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 16px;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 50px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 32px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top p {
+    font-size: 16px;
+    max-width: 90%;
+    margin: auto !important;
+    margin-bottom: 5px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top a {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder {
+    padding-top: 40px !important;
+    max-width: 500px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-bottom: 30px !important;
+    max-width: 100%;
+    height: 100%;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+    padding: 10px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 140px;
+    width: 100%;
+    max-width: 100%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 50px;
+  }
+  #homeBody #indexBackground {
+    max-width: 95%;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 210px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 350px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: center;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 16px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 16px;
+  }
+  #homeBody #indexBenefits {
+    padding-top: 40px !important;
+    padding-bottom: 0 !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 32px;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 950px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px !important;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    max-width: 130px;
+    padding: 10px !important;
+    margin: auto !important;
+    display: block;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    padding-top: 10px !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 350px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 40px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: clamp(50px, 34px, 34px);
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 16px;
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 12px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 40px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top p {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top a {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder {
+    padding-top: 40px !important;
+    max-width: 85%;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+    max-width: 40%;
+    max-height: 140px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 30px;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 140px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 45px;
+  }
+  #homeBody #indexBackground {
+    max-width: 98%;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 310px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 310px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 34px;
+    line-height: 30px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 16px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 16px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 40px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 95%;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    width: 100%;
+    max-width: 50%;
+    padding: 50px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    width: 100%;
+    max-width: 50%;
+    padding: 0 !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 31px;
+    line-height: 31px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 650px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 70px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 80px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 19px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top {
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_top h1 {
+    font-size: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top p {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_top a {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder {
+    max-width: 680px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    height: 420px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide img {
+    max-width: 250px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets div {
+    max-width: 340px;
+    margin: auto !important;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 190px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 65px;
+  }
+  #homeBody #indexBackground {
+    max-width: 98%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 360px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 360px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 18px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 18px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 45px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 99%;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 33.33%;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    width: 100%;
+    max-width: 100%;
+    padding: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+    padding-top: 20px !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 420px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 90px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 60px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 19px;
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 50px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top p {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top a {
+    font-size: 16px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder {
+    padding-top: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    height: 380px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+    max-width: 200px;
+    max-height: 150px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 34px;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 150px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 65px;
+  }
+  #homeBody #indexBackground {
+    max-width: 98%;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 360px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 360px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 18px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 18px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 45px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 85%;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    width: 100%;
+    max-width: 40%;
+    padding: 45px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: auto !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    width: 100%;
+    max-width: 60%;
+    padding: 0 !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 650px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 70px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 90px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 28px;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 20px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top {
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_top h1 {
+    font-size: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top p {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_top a {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder {
+    max-width: 940px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    height: 410px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide img {
+    max-width: 250px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets div {
+    max-width: 340px;
+    margin: auto !important;
+  }
+  #homeBody #indexTypes {
+    max-width: 95%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 210px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 75px;
+  }
+  #homeBody #indexBackground {
+    max-width: 97%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 360px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 360px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 55px;
+    line-height: 45px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: block;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 18px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 18px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 55px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 99%;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 33.33%;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    width: 100%;
+    max-width: 100%;
+    padding: 60px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+    padding-top: 20px !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 650px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 70px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 90px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 28px;
+    padding-bottom: 10px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 20px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top {
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexProducts .index_products_top h1 {
+    font-size: 60px !important;
+  }
+  #homeBody #indexProducts .index_products_top p {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_top a {
+    font-size: 19px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder {
+    max-width: 100% !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide {
+    opacity: 1 !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    height: 100% !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide:hover {
+    top: 0 !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide img {
+    max-width: 250px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 35px !important;
+  }
+  #homeBody #indexProducts .index_products_slider_holder .products_slide .products_slide_cnt_deets div {
+    max-width: 340px;
+    margin: auto !important;
+  }
+  #homeBody #indexTypes {
+    max-width: 90%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 210px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 75px;
+  }
+  #homeBody #indexBackground {
+    max-width: 91%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 360px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 360px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 50px;
+    line-height: 45px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: none;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 18px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 18px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    padding-bottom: 0px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 55px;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box {
+    max-width: 99%;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit {
+    width: 100%;
+    max-width: 33.33%;
+    display: block;
+    margin-bottom: 30px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: auto !important;
+    margin-left: 0 !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 !important;
+    padding-top: 20px !important;
+    text-align: center;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #homeBody #indexTop {
+    max-width: 100%;
+    height: 800px;
+  }
+  #homeBody #indexTop .index_top_cnt div {
+    padding-top: 80px !important;
+  }
+  #homeBody #indexTop .index_top_cnt div h1 {
+    font-size: 130px;
+  }
+  #homeBody #indexTop .index_top_cnt div p {
+    font-size: 31px;
+  }
+  #homeBody #indexTop .index_top_cnt div a {
+    font-size: 23px;
+  }
+  #homeBody #indexProducts {
+    padding-top: 110px !important;
+    padding-bottom: 100px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_top h1 {
+    font-size: 65px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide {
+    height: 425px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide img {
+    max-width: 310px;
+    max-height: 180px;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets {
+    padding-top: 10px !important;
+  }
+  #homeBody #indexProducts .index_products_cnt .index_products_slider_holder .products_slide .products_slide_cnt_deets h3 {
+    font-size: 41px;
+  }
+  #homeBody #indexTypes {
+    max-width: 90%;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type {
+    height: 210px;
+    width: 100%;
+    max-width: 50%;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a {
+    display: -ms-grid !important;
+    display: grid !important;
+    place-items: center !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div {
+    padding: 0 !important;
+  }
+  #homeBody #indexTypes .index_types_box .index_types_row .index_types_type a div span {
+    font-size: 75px;
+  }
+  #homeBody #indexBackground {
+    max-width: 91%;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundL {
+    max-width: 60%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row #indexBackgroundR {
+    height: 360px;
+    max-width: 40%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side {
+    height: 360px;
+    width: 100%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt {
+    text-align: left;
+    max-width: 95%;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 {
+    font-size: 65px;
+    line-height: 45px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt h1 br {
+    display: none;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt p {
+    font-size: 18px;
+    max-width: 92%;
+    margin-left: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_side_txt a {
+    font-size: 18px;
+  }
+  #homeBody #indexBackground .index_background_box .index_background_row .index_background_side .index_background_bg {
+    max-width: 100%;
+  }
+  #homeBody #indexBenefits {
+    max-width: 1100px;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt h1 {
+    font-size: 65px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit img {
+    max-width: 270px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div h3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  #homeBody #indexBenefits .index_benefits_cnt .index_benefits_box .index_benefits_row .index_benefits_benefit div a {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */
