@@ -4,7 +4,7 @@
 
 ---
 
-A ecommerce website dedicated to Jojos Bizarre Adventure
+A ecommerce website dedicated to food and produce.
 
 ===
 
