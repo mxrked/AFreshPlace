@@ -12,7 +12,7 @@ A ecommerce website dedicated to food and produce.
 
 ---
 
-Demo: https://startling-syrniki-d0dc90.netlify.app/
+Demo: [https://startling-syrniki-d0dc90.netlify.app/](https://effulgent-marshmallow-23dfdf.netlify.app/)
 
 ===
 
